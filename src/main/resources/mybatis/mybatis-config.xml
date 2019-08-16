@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <plugins>
+        <plugin interceptor="com.hdf.springboot2_x.chapter5.plugin.MyPlugin">
+            <property name="key1" value="value1"/>
+            <property name="key2" value="value2"/>
+            <property name="key3" value="value3"/>
+        </plugin>
+    </plugins>
+</configuration>
